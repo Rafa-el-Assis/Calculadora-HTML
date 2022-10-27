@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <script src="cal.js"></script>   
+    <link rel="stylesheet" href="app.css">
+     
+</head>
+   <body>    
+        <h1 class="title? aling=" centre">
+            \,,\Calculadora Heavy Metal /,,/
+        </h1>        
+        <div class="box">
+            <input class="visor" type="text" value="0" id="visor"/>
+            <table>
+                <tr>
+                    <td><button class="botao" value="7" onclick="btn1(this.value)">7</button></td>
+                    <td><button class="botao" value="8" onclick="btn1(this.value)">8</button></td>
+                    <td><button class="botao" value="9" onclick="btn1(this.value)">9</button></td>
+                    <td><button class="botao" value="*" onclick="btn3(this.value)">*</button></td>
+                </tr>
+                <tr>
+                    <td><button class="botao" value="4" onclick="btn1(this.value)">4</button></td>
+                    <td><button class="botao" value="5" onclick="btn1(this.value)">5</button></td>
+                    <td><button class="botao" value="6" onclick="btn1(this.value)">6</button></td>
+                    <td><button class="botao" value="-" onclick="btn4(this.value)">-</button></td>
+                </tr>
+                <tr>
+                    <td><button class="botao" value="1" onclick="btn1(this.value)">1</button></td>
+                    <td><button class="botao" value="2" onclick="btn1(this.value)">2</button></td>
+                    <td><button class="botao" value="3" onclick="btn1(this.value)">3</button></td>
+                    <td><button class="botao" value="+" onclick="btn5(this.value)">+</button></td>
+                </tr>
+                <tr>
+                    <td colspan="3"><button style="width: 158px;" class="botao" value="0" onclick="btn1(this.value)">0</button></td>
+                    <td rowspan="2"><button style="height: 106px;" class="botao" value="=" onclick="btnig(this.value)">=</button></td>
+                </tr>
+                <tr>
+                    <td><button class="botao" value="." onclick="btn1(this.value)">.</button></td> 
+                    <td><button class="botao" value="/" onclick="btndiv(this.value)">/</button></td>
+                    <td><button class="botao" value="C" onclick="btn2(this.value)">C</button></td> 
+                </tr>                                        
+            </table>
+        </div>            
+    </body>        
+</html>
